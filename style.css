@@ -1,0 +1,148 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Section */
+#filter {
+  margin-top: 10px;
+}
+
+/* Task List Scrollable Container */
+.task-container {
+  max-height: 300px; /* Fixed height */
+  overflow-y: auto; /* Enable vertical scrollbar */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+/* Task List */
+#task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual Task Item */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+/* Completed Task Styling */
+.task-item.completed {
+  background-color: #e0ffe0;
+  opacity: 0.7;
+}
+
+/* Task Actions */
+.task-actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Different Button Colors */
+.task-actions .toggle-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.task-actions .edit-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.task-actions .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.task-actions button:hover {
+  opacity: 0.8;
+}
+
+/* Scrollbar Styling */
+.task-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.task-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.task-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.task-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
