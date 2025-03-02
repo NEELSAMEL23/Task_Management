@@ -60,7 +60,7 @@ This project is **open-source** and free to use.
 ## 📩 Contact
 
 📧 **Email**: neelsamel3\@gmail.com\
-🐙 **GitHub**: [neelsamel23](https://github.com/neelsamel23)\
+🐙 **GitHub**: [neelsamel23](https://github.com/neelsamel23)
 
 
 ---
