@@ -45,7 +45,9 @@ Task_Management/
 3. **Run the app**: Open `index.html` in any web browser.
 
 ## 📸 Screenshots
-
+<img src="screenshot1.png" width="500px">
+<img src="screenshot2.png" width="500px">
+<img src="screenshot3.png" width="500px">
 
 
 ## 📜 License
