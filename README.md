@@ -45,9 +45,12 @@ Task_Management/
 3. **Run the app**: Open `index.html` in any web browser.
 
 ## 📸 Screenshots
-<img src="screenshot1.png" width="500px">
-<img src="screenshot2.png" width="500px">
-<img src="screenshot3.png" width="500px">
+<p align="center">
+<img src="screenshot1.png" width="250px" height="350px" hspace="10">
+  <img src="screenshot2.png" width="250px" height="350px"  hspace="10">
+  <img src="screenshot3.png" width="250px" height="350px"  hspace="10">
+</p>
+
 
 
 ## 📜 License
@@ -58,7 +61,7 @@ This project is **open-source** and free to use.
 
 📧 **Email**: neelsamel3\@gmail.com\
 🐙 **GitHub**: [neelsamel23](https://github.com/neelsamel23)\
-🚀 **Portfolio**: 
+
 
 ---
 
